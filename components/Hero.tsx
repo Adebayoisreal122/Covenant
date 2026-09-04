@@ -16,9 +16,9 @@ export default function Hero() {
         aria-label="Congregation gathered in worship"
       />
       {/* Overlay: navy base with a warm bottom-left glow toward the CTA */}
-      <div className="absolute inset-0 bg-gradient-to-b from-ink/90 via-ink/80 to-ink/95" />
-      <div className="absolute inset-0 bg-call-gradient opacity-70 mix-blend-multiply" />
-      <div className="absolute -bottom-24 -left-24 h-[420px] w-[420px] rounded-full bg-call-red/30 blur-[120px]" />
+      <div className="absolute inset-0 bg-gradient-to-b from-ink/60 via-ink/40 to-ink/65" />
+      <div className="absolute inset-0 bg-call-gradient opacity-80 mix-blend-multiply" />
+      <div className="absolute -bottom-24 -left-24 h-[420px] w-[420px] rounded-full bg-call-red/20 blur-[120px]" />
       <div className="absolute -top-24 -right-24 h-[420px] w-[420px] rounded-full bg-call-orange/20 blur-[120px]" />
 
       <div className="relative z-10 mx-auto w-full max-w-7xl px-5 pt-24 lg:px-8">

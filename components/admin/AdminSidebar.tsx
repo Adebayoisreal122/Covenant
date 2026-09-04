@@ -1,9 +1,9 @@
 "use client";
 
-import { Flame, BookOpen, CalendarDays, Quote, HandHeart, Users, Mail, LogOut } from "lucide-react";
+import { Flame, BookOpen, CalendarDays, Quote, HandHeart, Users, Mail, LogOut, Images, } from "lucide-react";
 import { cn } from "@/lib/utils";
 
-export type AdminTab = "devotions" | "programs" | "testimonies" | "prayers" | "registrations" | "messages";
+export type AdminTab = "devotions" | "programs" | "testimonies" | "prayers" | "registrations" | "messages" | "moments";
 
 const TABS: { key: AdminTab; label: string; icon: typeof BookOpen }[] = [
   { key: "devotions", label: "Devotions", icon: BookOpen },
@@ -12,6 +12,7 @@ const TABS: { key: AdminTab; label: string; icon: typeof BookOpen }[] = [
   { key: "prayers", label: "Prayer Requests", icon: HandHeart },
   { key: "registrations", label: "Registrations", icon: Users },
   { key: "messages", label: "Messages", icon: Mail },
+  {key: "moments", label: "Moments", icon: Images,},
 ];
 
 export default function AdminSidebar({

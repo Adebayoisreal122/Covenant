@@ -10,6 +10,7 @@ import TestimoniesManager from "@/components/admin/TestimoniesManager";
 import PrayersManager from "@/components/admin/PrayersManager";
 import RegistrationsManager from "@/components/admin/RegistrationsManager";
 import MessagesManager from "@/components/admin/MessagesManager";
+import MomentAdmin from "@/components/admin/MomentsAdmin";
 
 export default function AdminDashboardPage() {
   const { admin, checking, logout } = useAdminGuard();
@@ -33,6 +34,8 @@ export default function AdminDashboardPage() {
         {tab === "prayers" && <PrayersManager />}
         {tab === "registrations" && <RegistrationsManager />}
         {tab === "messages" && <MessagesManager />}
+        {tab === "moments" && <MomentAdmin />}
+
       </main>
     </div>
   );
