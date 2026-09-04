@@ -7,14 +7,14 @@ const sora = Sora({ subsets: ["latin"], variable: "--font-sora", weight: ["600",
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
 export const metadata: Metadata = {
-  title: "The Call Global | Answer the Call",
+  title: "Covenant Of Grace Revival Ministry ",
   description:
-    "Daily devotions, upcoming programs, prayer, and community for The Call Global ministry.",
+    "Daily devotions, upcoming programs, prayer, and community for Covenant Of Grace Revival Ministry.",
   manifest: "/manifest.json",
   appleWebApp: {
     capable: true,
     statusBarStyle: "black-translucent",
-    title: "The Call Global",
+    title: "Covenant Of Grace",
   },
   icons: {
     icon: "/icons/icon-192.png",

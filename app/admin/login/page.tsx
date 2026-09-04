@@ -34,8 +34,9 @@ export default function AdminLoginPage() {
     <main className="flex min-h-screen items-center justify-center bg-call-gradient px-5">
       <Card className="w-full max-w-sm p-8">
         <div className="flex flex-col items-center text-center">
-          <span className="flex h-12 w-12 items-center justify-center rounded-full bg-cta-gradient">
-            <Flame className="h-6 w-6 text-white" />
+          <span className="flex h-12 w-12 items-center justify-center rounded-full ">
+            {/* <Flame className="h-6 w-6 text-white" /> */}
+            <img src="/icons/icon0.svg" alt="logo" />
           </span>
           <h1 className="mt-4 font-display text-xl font-bold text-ink">Admin sign in</h1>
           <p className="mt-1 text-sm text-slate-500">The Call Global dashboard</p>

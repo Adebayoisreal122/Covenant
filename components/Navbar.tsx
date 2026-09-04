@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
-import { Menu, X, Flame } from "lucide-react";
+import { Menu, X,} from "lucide-react";
 import { Button } from "@/components/ui/Button";
 import { cn } from "@/lib/utils";
 
@@ -36,9 +36,9 @@ export default function Navbar() {
     >
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-5 py-4 lg:px-8">
         <Link href="/" className="flex items-center gap-2 font-display text-lg font-bold text-white">
-          <span className="flex h-9 w-9 items-center justify-center rounded-full bg-cta-gradient">
+          <span className="flex h-9 w-9 items-center justify-center rounded-full ">
             {/* <Flame className="h-5 w-5 text-white" strokeWidth={2.4} /> */}
-            <img src="/icons/web-app-manifest-192x192.png" alt="logo" />
+            <img src="/icons/icon0.svg" alt="logo" />
           </span>
          Covenant Of Grace
         </Link>

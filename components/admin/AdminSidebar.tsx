@@ -28,8 +28,10 @@ export default function AdminSidebar({
   return (
     <aside className="flex h-full w-64 shrink-0 flex-col bg-ink px-4 py-6">
       <div className="flex items-center gap-2 px-2 font-display text-lg font-bold text-white">
-        <span className="flex h-9 w-9 items-center justify-center rounded-full bg-cta-gradient">
-          <Flame className="h-5 w-5 text-white" />
+        <span className="flex h-9 w-9 items-center justify-center rounded-full ">
+          {/* <Flame className="h-5 w-5 text-white" /> */}
+            <img src="/icons/icon0.svg" alt="logo" />
+
         </span>
         The Call Global
       </div>

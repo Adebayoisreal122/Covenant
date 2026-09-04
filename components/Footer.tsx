@@ -6,8 +6,9 @@ export default function Footer() {
     <footer className="bg-ink px-5 py-12 lg:px-8">
       <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-6 sm:flex-row">
         <div className="flex items-center gap-2 font-display text-lg font-bold text-white">
-          <span className="flex h-8 w-8 items-center justify-center rounded-full bg-cta-gradient">
-            <Flame className="h-4 w-4 text-white" />
+          <span className="flex h-8 w-8 items-center justify-center rounded-full ">
+            {/* <Flame className="h-4 w-4 text-white" /> */}
+            <img src="/icons/icon0.svg" alt="logo" />
           </span>
           Covenant Of Grace
         </div>
