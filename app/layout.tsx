@@ -9,7 +9,7 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 export const metadata: Metadata = {
   title: "Covenant Of Grace Revival Ministry ",
   description:
-    "Daily devotions, upcoming programs, prayer, and community for Covenant Of Grace Revival Ministry.",
+    "Holiness and prayer is our watchward",
   manifest: "/manifest.json",
   appleWebApp: {
     capable: true,

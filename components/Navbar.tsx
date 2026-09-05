@@ -40,7 +40,7 @@ export default function Navbar() {
             {/* <Flame className="h-5 w-5 text-white" strokeWidth={2.4} /> */}
             <img src="/icons/icon0.svg" alt="logo" />
           </span>
-         Covenant Of Grace
+         Covenant Of Grace Revival Ministry
         </Link>
 
         <div className="hidden items-center gap-7 lg:flex">

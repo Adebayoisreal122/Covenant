@@ -33,7 +33,7 @@ export default function Hero() {
         </h1>
 
         <p className="mt-6 max-w-xl text-lg leading-relaxed text-white/75">
-          The Call Global is a community built on daily devotion, real testimonies, and
+          Covenant Of Grace Rivival Ministry is a community built on holiness and prayr, daily devotion, real testimonies, and
           gathering in person and online. Wherever you are in your journey, there&apos;s a seat for you.
         </p>
 

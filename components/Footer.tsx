@@ -10,7 +10,7 @@ export default function Footer() {
             {/* <Flame className="h-4 w-4 text-white" /> */}
             <img src="/icons/icon0.svg" alt="logo" />
           </span>
-          Covenant Of Grace
+          Covenant Of Grace Revival Ministry
         </div>
         <p className="text-sm text-white/50">
           © {new Date().getFullYear()} The Call Global. All rights reserved.
