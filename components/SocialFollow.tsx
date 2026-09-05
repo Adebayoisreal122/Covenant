@@ -1,10 +1,10 @@
 import { Instagram, Youtube, Facebook, Twitter } from "lucide-react";
 
 const SOCIALS = [
-  { label: "Instagram", href: "https://instagram.com/thecallglobal", icon: Instagram },
-  { label: "YouTube", href: "https://youtube.com/@thecallglobal", icon: Youtube },
-  { label: "Facebook", href: "https://facebook.com/thecallglobal", icon: Facebook },
-  { label: "Twitter / X", href: "https://twitter.com/thecallglobal", icon: Twitter },
+  { label: "Instagram", href: "https://www.instagram.com/cgrmtv?igsi=b3o0MWx1aWl3ZzVq", icon: Instagram },
+  { label: "YouTube", href: "https://youtube.com/@cgrmtv?si=KEEw8F0qJWHBB1g7", icon: Youtube },
+  { label: "Facebook", href: "https://www.facebook.com/share/g/19K6GZHydg/", icon: Facebook },
+  // { label: "Twitter / X", href: "https://twitter.com/thecallglobal", icon: Twitter },
 ];
 
 export default function SocialFollow() {
