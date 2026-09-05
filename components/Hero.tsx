@@ -28,15 +28,17 @@ export default function Hero() {
         </div>
 
         <h1 className="mt-8 max-w-3xl text-balance font-display text-5xl font-extrabold leading-[1.05] text-white sm:text-6xl lg:text-7xl">
-          Answer the call.
-          <span className="block bg-cta-gradient bg-clip-text text-transparent">Find your people.</span>
+          Called to Holiness.
+          <span className="block bg-cta-gradient bg-clip-text text-transparent">United in Prayer.</span>
         </h1>
 
-        <p className="mt-6 max-w-xl text-lg leading-relaxed text-white/75">
-          Covenant Of Grace Rivival Ministry is a community built on holiness and prayr, daily devotion, real testimonies, and
-          gathering in person and online. Wherever you are in your journey, there&apos;s a seat for you.
-        </p>
-
+<p className="mt-6 max-w-xl text-lg leading-relaxed text-white/75">
+  Covenant Of Grace Revival Ministry is a people called to live by the grace
+  of God, pursue holiness, and cultivate a life of prayer. Through the Word,
+  fellowship, worship, prayer, and genuine testimonies, we are committed to
+  raising a generation that knows God, walks in His presence, and lives for
+  His purpose.
+</p>
         <div className="mt-10 flex flex-col gap-4 sm:flex-row">
           <a href="#join">
             <Button size="lg" className="w-full sm:w-auto">
@@ -53,17 +55,17 @@ export default function Hero() {
         <dl className="mt-16 grid max-w-lg grid-cols-3 gap-6 border-t border-white/10 pt-8">
           <div>
             <dt className="sr-only">Members</dt>
-            <dd className="font-display text-3xl font-bold text-white">12k+</dd>
+            <dd className="font-display text-3xl font-bold text-white">500+</dd>
             <p className="text-sm text-white/60">Community members</p>
           </div>
           <div>
             <dt className="sr-only">Cities</dt>
-            <dd className="font-display text-3xl font-bold text-white">40+</dd>
+            <dd className="font-display text-3xl font-bold text-white">2+</dd>
             <p className="text-sm text-white/60">Cities reached</p>
           </div>
           <div>
             <dt className="sr-only">Years</dt>
-            <dd className="font-display text-3xl font-bold text-white">10</dd>
+            <dd className="font-display text-3xl font-bold text-white">12</dd>
             <p className="text-sm text-white/60">Years of ministry</p>
           </div>
         </dl>
