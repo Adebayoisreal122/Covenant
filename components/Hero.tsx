@@ -9,8 +9,7 @@ export default function Hero() {
       <div
         className="absolute inset-0 bg-cover bg-center"
         style={{
-          backgroundImage:
-            "url('/images/convenant 13.jpg')",
+          backgroundImage: "url('/images/convenant 13.jpg')",
         }}
         role="img"
         aria-label="Congregation gathered in worship"
@@ -24,21 +23,25 @@ export default function Hero() {
       <div className="relative z-10 mx-auto w-full max-w-7xl px-5 pt-24 lg:px-8">
         <div className="flex items-center gap-2 rounded-full border border-white/15 bg-white/5 px-4 py-2 backdrop-blur w-fit">
           <PulseRing />
-          <span className="section-eyebrow text-white/80">Live every Sunday · 9AM &amp; 11AM</span>
+          <span className="section-eyebrow text-white/80">
+            Live every Sunday · 9AM &amp; 11AM
+          </span>
         </div>
 
         <h1 className="mt-8 max-w-3xl text-balance font-display text-5xl font-extrabold leading-[1.05] text-white sm:text-6xl lg:text-7xl">
           Called to Holiness.
-          <span className="block bg-cta-gradient bg-clip-text text-transparent">United in Prayer.</span>
+          <span className="block bg-cta-gradient bg-clip-text text-transparent">
+            United in Prayer.
+          </span>
         </h1>
 
-<p className="mt-6 max-w-xl text-lg leading-relaxed text-white/75">
-  Covenant Of Grace Revival Ministry is a people called to live by the grace
-  of God, pursue holiness, and cultivate a life of prayer. Through the Word,
-  fellowship, worship, prayer, and genuine testimonies, we are committed to
-  raising a generation that knows God, walks in His presence, and lives for
-  His purpose.
-</p>
+        <p className="mt-6 max-w-xl text-lg leading-relaxed text-white/75">
+          Covenant Of Grace Revival Ministry is a people called to live by the
+          grace of God, pursue holiness, and cultivate a life of prayer. Through
+          the Word, fellowship, worship, prayer, and genuine testimonies, we are
+          committed to raising a generation that knows God, walks in His
+          presence, and lives for His purpose.
+        </p>
         <div className="mt-10 flex flex-col gap-4 sm:flex-row">
           <a href="#join">
             <Button size="lg" className="w-full sm:w-auto">
